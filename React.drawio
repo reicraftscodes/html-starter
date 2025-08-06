@@ -1,0 +1,391 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+  <diagram name="Page-1" id="7MdmrDXVKev8UI5KApEB">
+    <mxGraphModel dx="1443" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RVnVQys5DVPM64ntAEeT-148" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="110" y="750" width="650" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.786;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="132.64" y="100" as="sourcePoint" />
+            <mxPoint x="159.9999999999999" y="155.71999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="132.64" y="156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#6c8ebf;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.folder;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="40" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="Monolith Project " link="React Project                           Spring Boot Project&#xa;─────────────                           ────────────────────&#xa;package.json                            pom.xml / build.gradle&#xa;│                                       │&#xa;├── Defines dependencies                ├── Defines dependencies&#xa;└── Specifies scripts                   └── Specifies build plugins&#xa;&#xa;main.tsx                               Application.java&#xa;│                                      │&#xa;├── Entry point                        ├── Entry point&#xa;└── Bootstraps React                   └── Bootstraps Spring context&#xa;&#xa;App.tsx                                MainController.java&#xa;│                                      │&#xa;├── Main component                     ├── Main controller&#xa;└── Coordinates UI                     └── Routes requests&#xa;&#xa;index.css                              application.properties&#xa;│                                      │&#xa;├── Global styling                     ├── Configuration settings&#xa;└── Sets UI appearance                 └── Global settings" id="RVnVQys5DVPM64ntAEeT-3">
+          <mxCell style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+            <mxGeometry x="80" y="90" width="120" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="public folder" id="RVnVQys5DVPM64ntAEeT-4">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="160" y="140" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.786;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="132.64" y="140" as="sourcePoint" />
+            <mxPoint x="159.9999999999999" y="195.71999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="132.64" y="196" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="src" id="RVnVQys5DVPM64ntAEeT-6">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="160" y="180" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="200" as="sourcePoint" />
+            <mxPoint x="197.3599999999999" y="255.71999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="assets" id="RVnVQys5DVPM64ntAEeT-8">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="200" y="210" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="220" as="sourcePoint" />
+            <mxPoint x="197.3599999999999" y="285.71999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="components" id="RVnVQys5DVPM64ntAEeT-10">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="200" y="240" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="250" as="sourcePoint" />
+            <mxPoint x="197.3599999999999" y="315.71999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="services" id="RVnVQys5DVPM64ntAEeT-12">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="200" y="270" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="App.tsx" id="RVnVQys5DVPM64ntAEeT-13">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="200" y="420" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="App.css" id="RVnVQys5DVPM64ntAEeT-14">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="197" y="450" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;dashed=1;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="430" as="sourcePoint" />
+            <mxPoint x="196.9999999999999" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="main.tsx" id="RVnVQys5DVPM64ntAEeT-17">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="197" y="480" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;dashed=1;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="460" as="sourcePoint" />
+            <mxPoint x="196.9999999999999" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="package.json" id="RVnVQys5DVPM64ntAEeT-21">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="197" y="500" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;dashed=1;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="480" as="sourcePoint" />
+            <mxPoint x="196.9999999999999" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Your pom.xml - dependencies &amp; scripts" id="RVnVQys5DVPM64ntAEeT-23">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="300" y="500" width="230" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="1. Browser loads index.html&#xa;         ↓&#xa;2. main.tsx says &quot;Start React here!&quot;&#xa;         ↓&#xa;3. React loads App.tsx&#xa;         ↓&#xa;4. App.tsx shows your components&#xa;" link="1. Browser loads index.html&#xa;         ↓&#xa;2. main.tsx says &quot;Start React here!&quot;&#xa;         ↓&#xa;3. React loads App.tsx&#xa;         ↓&#xa;4. App.tsx shows your components" id="RVnVQys5DVPM64ntAEeT-24">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="810" y="570" width="220" height="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="main.tsx is like the SpringApplication.run() line - it just starts everything up. App.tsx is where your actual application logic lives - like your main controller that coordinates everything else" link="&quot;main.tsx is like the SpringApplication.run() line - it just starts everything up. App.tsx is where your actual application logic lives - like your main controller that coordinates everything else" id="RVnVQys5DVPM64ntAEeT-25">
+          <mxCell style="text;whiteSpace=wrap;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="750" y="495" width="350" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-26" value="Your static web resources to store favicon, PWA supports, SEO Crawlers" style="text;whiteSpace=wrap;fontColor=#CC0066;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="400" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Static resources for components" id="RVnVQys5DVPM64ntAEeT-28">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="300" y="210" width="190" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Entry point (like SpringApplication.run)" id="RVnVQys5DVPM64ntAEeT-29">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="300" y="480" width="230" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Application.java - Entry point" id="RVnVQys5DVPM64ntAEeT-30">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="300" y="420" width="220" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="API calls / endpoints" id="RVnVQys5DVPM64ntAEeT-32">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="320" y="300" width="300" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="280" as="sourcePoint" />
+            <mxPoint x="197.3599999999999" y="435.71999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="pages" id="RVnVQys5DVPM64ntAEeT-36">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="200" y="390" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Page-level components (views)" id="RVnVQys5DVPM64ntAEeT-37">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="300" y="390" width="400" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d80073;strokeColor=#A50040;dashed=1;" edge="1" parent="1" source="RVnVQys5DVPM64ntAEeT-29" target="RVnVQys5DVPM64ntAEeT-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="API" id="RVnVQys5DVPM64ntAEeT-39">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="250" y="300" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#000000;exitX=0.173;exitY=1.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RVnVQys5DVPM64ntAEeT-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="310" as="sourcePoint" />
+            <mxPoint x="240" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="212" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="domain" id="RVnVQys5DVPM64ntAEeT-41">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="250" y="320" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#000000;exitX=0.173;exitY=1.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212" y="310" as="sourcePoint" />
+            <mxPoint x="240" y="327" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="212" y="327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="400" as="sourcePoint" />
+            <mxPoint x="197" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="userService" id="RVnVQys5DVPM64ntAEeT-45">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="290" y="350" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;dashed=1;exitX=0.302;exitY=0.845;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RVnVQys5DVPM64ntAEeT-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="330" as="sourcePoint" />
+            <mxPoint x="287" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="337" />
+              <mxPoint x="270" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Handles registration logic" id="RVnVQys5DVPM64ntAEeT-47">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="360" y="350" width="300" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.786;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="187.64" y="801.5" as="sourcePoint" />
+            <mxPoint x="214.9999999999999" y="857.22" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="187.64" y="857.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-92" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.folder;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="165" y="791.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="mf- UserRegistration" link="React Project                           Spring Boot Project&#xa;─────────────                           ────────────────────&#xa;package.json                            pom.xml / build.gradle&#xa;│                                       │&#xa;├── Defines dependencies                ├── Defines dependencies&#xa;└── Specifies scripts                   └── Specifies build plugins&#xa;&#xa;main.tsx                               Application.java&#xa;│                                      │&#xa;├── Entry point                        ├── Entry point&#xa;└── Bootstraps React                   └── Bootstraps Spring context&#xa;&#xa;App.tsx                                MainController.java&#xa;│                                      │&#xa;├── Main component                     ├── Main controller&#xa;└── Coordinates UI                     └── Routes requests&#xa;&#xa;index.css                              application.properties&#xa;│                                      │&#xa;├── Global styling                     ├── Configuration settings&#xa;└── Sets UI appearance                 └── Global settings" id="RVnVQys5DVPM64ntAEeT-93">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="145" y="796.5" width="120" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="public folder" id="RVnVQys5DVPM64ntAEeT-94">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="215" y="841.5" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.786;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="187.64" y="841.5" as="sourcePoint" />
+            <mxPoint x="214.9999999999999" y="897.22" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="187.64" y="897.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="src" id="RVnVQys5DVPM64ntAEeT-96">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="215" y="881.5" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="222" y="901.5" as="sourcePoint" />
+            <mxPoint x="249.3599999999999" y="967.22" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="222" y="931.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="components" id="RVnVQys5DVPM64ntAEeT-100">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="255" y="921.5" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="RegisterForm.tsx " id="RVnVQys5DVPM64ntAEeT-127">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="295" y="954.5" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;dashed=1;exitX=0.302;exitY=0.845;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="263" y="941.5" as="sourcePoint" />
+            <mxPoint x="279" y="964.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="262" y="941.5" />
+              <mxPoint x="262" y="964.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label=" RegisterFormTestPage.tsx" id="RVnVQys5DVPM64ntAEeT-129">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="295" y="974.5" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;dashed=1;exitX=0.302;exitY=0.845;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="263" y="961.5" as="sourcePoint" />
+            <mxPoint x="279" y="984.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="262" y="961.5" />
+              <mxPoint x="262" y="984.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="End to end tests per component" id="RVnVQys5DVPM64ntAEeT-131">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="465" y="974.5" width="280" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="901.5" as="sourcePoint" />
+            <mxPoint x="211.9999999999999" y="1044.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="1044.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVnVQys5DVPM64ntAEeT-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RVnVQys5DVPM64ntAEeT-141">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="222" y="931.5" as="sourcePoint" />
+            <mxPoint x="249.3599999999999" y="1040.22" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="222" y="1021.5" />
+              <mxPoint x="252" y="1021.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="services" id="RVnVQys5DVPM64ntAEeT-141">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="270" y="1011.5" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="App.tsx" id="RVnVQys5DVPM64ntAEeT-143">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="215" y="1031.5" width="70" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Modular components" id="RVnVQys5DVPM64ntAEeT-144">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="365" y="921.5" width="280" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="All components stored here per feature, for example, Form, Navigation bar, Button etc.  " id="RVnVQys5DVPM64ntAEeT-145">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="300" y="240" width="330" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="a global CSS file that applies styling to the App.tsx, often contains styles used across your whole app not generally good practice" id="RVnVQys5DVPM64ntAEeT-146">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="300" y="450" width="730" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Root of the MFE’s logic (not always used)" id="RVnVQys5DVPM64ntAEeT-149">
+          <mxCell style="text;whiteSpace=wrap;fillColor=none;fontColor=#CC0066;" vertex="1" parent="1">
+            <mxGeometry x="275" y="1040" width="280" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
